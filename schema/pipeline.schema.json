@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mielzie Reasoning Pipeline",
+  "type": "object",
+  "properties": {
+    "step": {
+      "type": "integer"
+    },
+    "agent": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "input": {
+      "type": "string"
+    },
+    "output": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "step",
+    "agent",
+    "role",
+    "input",
+    "output"
+  ]
+}
