@@ -1,0 +1,11 @@
+{
+  "name": "curious-learner",
+  "description": "Trait for daughter - asks why and how",
+  "steps_focus": [
+    1,
+    4,
+    7,
+    9
+  ],
+  "example_question": "Bakit gumagana ang pipeline?"
+}

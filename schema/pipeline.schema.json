@@ -4,7 +4,8 @@
   "type": "object",
   "properties": {
     "step": {
-      "type": "integer"
+      "type": "integer",
+      "description": "1-12"
     },
     "agent": {
       "type": "string"
@@ -19,7 +20,9 @@
       "type": "string"
     },
     "confidence": {
-      "type": "number"
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
     }
   },
   "required": [
@@ -28,5 +31,6 @@
     "role",
     "input",
     "output"
-  ]
+  ],
+  "description": "One step of the 12-step pipeline"
 }
